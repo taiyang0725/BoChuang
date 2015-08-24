@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add"
+       android:icon="@drawable/menu_new_user"
+        android:title="@string/add"
+        />
+    <item
+        android:id="@+id/find"
+       android:icon="@drawable/menu_search"
+        android:title="@string/find"/>
+    <item
+        android:id="@+id/communication"
+       android:icon="@drawable/menu_delete"
+        android:title="@string/communication"/>
+    <item
+        android:id="@+id/menu_menu"
+       android:icon="@drawable/controlbar_showtype_list"
+        android:title="@string/menu_menu"/>
+    <item
+        android:id="@+id/exit"
+       android:icon="@drawable/menu_return"
+        android:title="@string/exit"/>
+   
+
+</menu>

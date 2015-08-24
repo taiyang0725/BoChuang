@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grdone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+   
+   
+    >
+    <ImageView 
+        android:id="@+id/grd_icon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/image16"
+        />
+    <TextView 
+        android:id="@+id/grd_txt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+       
+        android:text="@string/address_list"
+        />
+
+</LinearLayout>

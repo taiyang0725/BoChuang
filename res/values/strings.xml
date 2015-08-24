@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">天天多功能手机助手</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="address_list">通讯录</string>
+    <string name="battery_butler">电池管家</string>
+    <string name="battery_detection">电池检测</string>
+    <string name="battery_maintain">电池维护</string>
+    <string name="camera">照相机</string>
+    <string name="sw_butler">软件管家</string>
+    <string name="system_speed">系统加速</string>
+    <string name="alarm_clock">闹钟</string>
+    <string name="good_succeed">好的助手，祝你马到成功......!</string>
+
+    <string-array name="icon_title">
+        <item> 软件管家</item>
+        <item> 通讯录</item>
+        <item> 照相机</item>
+        <item> 电池管家</item>
+        <item> 闹钟</item>
+        <item> 系统加速</item>
+    </string-array>
+
+    <string name="sd_remove">检测不到SD卡</string>
+    <string name="save_scuu">保存成功</string>
+    <string name="del_scuu">删除成功</string>
+    <string name="automatic">自动</string>
+    <string name="open">开</string>
+    <string name="close">关</string>
+    <string name="exit_program">再按一次退出天天手机助手</string>
+    <string name="system_camera">系统相机</string>
+    <string name="my_camera">我的相机</string>
+    <string name="choose_camera">选择相机</string>
+    <string name="can_cel">取消</string>
+    <string name="con_firm">确定</string>
+    <string name="sw_num_sys">系统程序个数：</string>
+    <string name="sw_num_user">用户程序个数：</string>
+    <string name="select">选项</string>
+    <string name="detailedness">详细信息</string>
+    <string name="a_name">程序名称:</string>
+    <string name="app_packageName">程序包名:</string>
+    <string name="versions_number">版本编号:</string>
+    <string name="versions_name">版本名称:</string>
+    <string name="defy_death">加载中</string>
+    <string name="setting">设置</string>
+
+    <string-array name="sel_word">
+        <item> 详细信息</item>
+        <item> 卸载程序</item>
+    </string-array>
+
+    <string name="battery_normal"> 电池正常使用中</string>
+    <string name="electric_quantity">当前电量</string>
+    <string name="battery_charge">正在充电中......</string>
+    <string name="battery_charge1">充电器已拔出！！！</string>
+    <string name="quick_charge1">1.快速充电\n已经完成</string>
+    <string name="Charge_Cycle1">2.循环充电\n进行中</string>
+    <string name="trickle_charge1">3.涓流充电\n等待中</string>
+    <string name="battery_state">电池状态：</string>
+    <string name="battery_temperature">电池温度：</string>
+    <string name="battery_voltage">电池电压：</string>
+    <string name="battery_use">电池使用状况：</string>
+    <string name="a_a_a_a"> 健康小巴士：\n
+                                                                              电量低于十分之一时打开电池维护，\n
+                                                                              为您进行健康充电，建议每月进行一次健康充\n
+                                                                                电，保养电池。\n
+                                                                               快速充电阶段：使用恒流进行快速充电，快速\n
+                                                                                将电池充到五分之四，建议继续进行，将手机电池\n
+                                                                                充满。\n
+                                                                                循环充电阶段：电量即将充满的状态。\n
+                                                                                 涓流充电：保持充电状态。\n</string>
+
+    <string-array name="battery_status">
+        <item>  无法检测</item>
+        <item> 未知状态</item>
+        <item> 充电状态</item>
+        <item> 放电状态</item>
+        <item> 无法充电</item>
+        <item> 充电完成</item>
+    </string-array>
+    <string-array name="battery_health">
+        <item>  无法检测</item>
+        <item> 状况未知</item>
+        <item> 状况良好</item>
+        <item> 温度过高</item>
+        <item> 已损坏</item>
+        <item> 电压过高</item>
+        <item> 未知错误</item>
+        <item> 温度过低</item>
+    </string-array>
+
+    <string name="Speed_go"> 手机加速</string>
+    <string name="system_detection">系统检测</string>
+    <string name="application">应用程序:</string>
+    <string name="Turbo_Key">一键加速</string>
+    <string name="available_usable">已用内存/可用内存:</string>
+    <string name="Free_memory">已用内存:</string>
+    <string name="ge">个</string>
+    <string name="serve">服务</string>
+    <string name="RAM">内存:</string>
+
+    <string-array name="system_detection">
+        <item> 基本信息</item>
+        <item> CPU</item>
+        <item> 内存</item>
+        <item> 分辨率</item>
+        <item> 像素</item>
+        <item> WIFI</item>
+    </string-array>
+    <string-array name="base_info">
+        <item> 手机型号：</item>
+        <item> 系统版本：</item>
+        <item> 手机串号：</item>
+        <item> 运营商：</item>
+        <item> 是否root：</item>
+    </string-array>
+    <string-array name="CPU">
+        <item> CPU型号：</item>
+        <item> CPU核心数：</item>
+        <item> 最高频率：</item>
+        <item> 最低频率：</item>
+        <item> 当前频率：</item>
+    </string-array>
+    <string-array name="RAM">
+        <item> 运行内存总量：</item>
+        <item> 手机内存总量：</item>
+        <item> SD卡内存总量：</item>
+    </string-array>
+    <string-array name="resolution_ratio">
+        <item> 频幕分辨率：</item>
+        <item> 照片最大尺寸：</item>
+        <item> 闪光灯：</item>
+    </string-array>
+    <string-array name="pixel">
+        <item> 手机像素：</item>
+        <item> 像素密度：</item>
+        <item> 多点触控：</item>
+    </string-array>
+    <string-array name="WIFI">
+        <item> WIFI连接到：</item>
+        <item> WIFI地址：</item>
+        <item> WIFI连接速度：</item>
+        <item> MAC地址：</item>
+        <item> 蓝牙状态：</item>
+    </string-array>
+    <string-array name="SIM">
+        <item> 中国移动TD</item>
+        <item> 中国联通</item>
+        <item> 中国移动GSM</item>
+        <item> 中国电信CDMA</item>
+    </string-array>
+
+    <string name="kill_process">成功杀死%1$d个进程</string>
+    <string name="start_clock">开启闹钟</string>
+    <string name="close_clock">关闭闹钟</string>
+    <string name="setting_time">设置时间</string>
+    <string name="clock_use">闹钟启用</string>
+    <string name="setting_time_is">设置闹钟的时间是：</string>
+    <string name="no_clock">还没有设置闹钟呢</string>
+    <string name="hi_time_out">亲！时间到了</string>
+    <string name="know">知道了</string>
+    <string name="name">姓名</string>
+    <string name="tel">手机</string>
+    <string name="add">增加</string>
+    <string name="find">查找</string>
+    <string name="communication">通讯</string>
+    <string-array name="communication_array">
+        <item >电话</item>
+        <item >短信</item>
+    </string-array>
+    
+    
+    <string name="menu_menu">菜单</string>
+    <string name="exit">退出</string>
+    <string name="office_tel">办公室电话</string>
+    <string name="family_tel">家庭电话</string>
+    <string name="family_address">地址</string>
+    <string name="work_name">职务职称</string>
+    <string name="unit_name">单位名称</string>
+    <string name="zip_code">邮政编码</string>
+    <string name="e_mail">E-mail</string>
+    <string name="other_tel">其他联系方式</string>
+    <string name="remark">备注</string>
+    <string name="save">保存</string>
+    <string name="re_turn">返回</string>
+    <string name="info_alter">修改</string>
+    <string name="save_info_alter">保存修改</string>
+    <string name="info_delete">删除</string>
+    <string name="show_all">显示所有</string>
+    <string name="delete_all">删除所有</string>
+    <string name="is_delete_all">是否删除所有?</string>
+    <string name="is_delete_one">是否删除?</string>
+    <string name="retreat">后退</string>
+    <string name="sel_pic">请选择图像</string>
+    <string name="Enter_the_name_or_phone">Enter the name or phone</string>
+    <string name="call_up">打电话</string>
+    <string name="send_msg">发短信</string>
+    <string name="goal_num">目标号码:</string>
+    <string name="msg_content">信息内容:</string>
+    <string name="send_msg_content">发送消息</string>
+    <string name="number_yes_no">好像不是电话号码吧！</string>
+    <string name="msg_succeed">短信发送成功！</string>
+    <string name="name_null">姓名不能是空！</string>
+    <string name="cannot_detection">无法检测</string>
+    
+    <string-array name="number_select_many">
+        <item >没有选中号码！</item>
+        <item >只能选一个号码！</item>
+        </string-array>
+    <string-array name="find_how_mang">
+        <item >查询到</item>
+        <item >条记录</item>
+        <item >没有此人记录！</item>
+        </string-array>
+   
+</resources>

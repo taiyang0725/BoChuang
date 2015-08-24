@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是修改用户信息界面的布局 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <!-- 修改用户信息按钮布局 -->
+
+    <LinearLayout
+        android:id="@+id/layout_info_alter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+       
+       
+       >
+
+        <Button
+            android:id="@+id/btn_info_alter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/info_alter"
+             />
+        <Button
+            android:id="@+id/btn_save_info_alter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save_info_alter"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_info_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/info_delete" />
+
+        <Button
+            android:id="@+id/btn_info_return"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/re_turn" />
+    </LinearLayout>
+    <!-- 修改用户信息菜单键布局 -->
+
+    <LinearLayout
+        android:id="@+id/layout_info_alter_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        android:layout_below="@+id/include_alter"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+             >
+
+            <ImageButton
+                android:id="@+id/img_call_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dial" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/call_up" 
+                android:textColor="#FFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+             android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+             
+             >
+
+            <ImageButton
+                android:id="@+id/img_send_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/send_sms"
+               
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_msg"
+                android:textColor="#FFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include_alter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_info_alter"
+       
+        layout="@layout/addbook" />
+
+</RelativeLayout>
